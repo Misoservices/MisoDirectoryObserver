@@ -10,7 +10,7 @@
 import Foundation
 import Combine
 
-public class DirectoryObserver: ObservableObject {
+open class DirectoryObserver: ObservableObject {
     public var source: FileChangesSource? = nil
 
     public init() {}
